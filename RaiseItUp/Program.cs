@@ -32,7 +32,7 @@ namespace RaiseItUp
             if (name == "Daniel")
             {
                 salary += 19999.99;
-                Console.WriteLine("Congrats! You got a raise!");
+                Console.WriteLine("Congrats! You got a raise! Your new Salary is "+salary);
                 return true;
             }
             else
