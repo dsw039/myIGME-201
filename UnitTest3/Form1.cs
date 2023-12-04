@@ -112,6 +112,15 @@ namespace UnitTest3
                 Application.Restart();
                 Environment.Exit(0);
             }
+            CheckCorrectInputs();
+        }
+
+        private void CheckCorrectInputs()
+        {
+            if (correctInputs > 16)
+            {
+                exitButton.Enabled = true;
+            }
         }
 
         private void benRButton_CheckedChanged(object sender, EventArgs e)
@@ -797,6 +806,9 @@ namespace UnitTest3
             }
         }
 
-
+        private void exitButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
