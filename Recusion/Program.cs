@@ -8,6 +8,8 @@ namespace Recusion
 {
     class Program
     {
+        //This program is an edited version of NumberSorterFinalUsingDelegate. This version uses a recursive function in place of the while loop.
+        //Author: Daniel Wright
 
         // declare the delegate function type which will call either GetLowestArrayValue() or GetHighestArrayValue() depending on sSortDirection
         // note that the function signature must be the same for all functions it may represent
